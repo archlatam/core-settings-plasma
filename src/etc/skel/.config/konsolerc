@@ -1,0 +1,29 @@
+[Appearance]
+ColorScheme=CatppuccinMacchiatoLavender
+Font=JetBrainsMono Nerd Font,12,-1,5,50,0,0,0,0,0,Regular
+
+[Desktop Entry]
+DefaultProfile=live.profile
+
+[General]
+ConfigVersion=1
+Name=Default Profile
+Parent=FALLBACK/
+
+[Interaction Options]
+MiddleClickPasteMode=0
+
+[MainWindow]
+Height=900
+Width=1400
+
+[Scrolling]
+HistoryMode=1
+HistorySize=1000
+ScrollBarPosition=1
+
+[Terminal Features]
+BlinkingCursorEnabled=false
+
+[UiSettings]
+ColorScheme=

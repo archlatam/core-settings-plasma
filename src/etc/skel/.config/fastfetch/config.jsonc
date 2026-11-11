@@ -1,0 +1,109 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "sixel", // Konsole soporta sixel (no iTerm)
+    "source": "~/.config/fastfetch/archpuccinn_flat.png",
+    "width": 38,
+    "padding": {
+      "top": 1,
+      "left": 2,
+      "right": 5 
+    }
+  },
+  "display": {
+    "separator": " ",
+    "color": {
+      "keys": "#c6a0f6", // Mauve
+      "title": "#f5bde6" // Pink
+    }
+  },
+  "modules": [
+    {
+      "type": "title",
+      "key": " ",
+      "format": "{user-name-colored}@{host-name-colored}"
+    },
+    {
+      "type": "separator",
+      "string": "──────────────────────────────",
+      "times": 1
+    },
+    {
+      "type": "os",
+      "key": " OS",
+      "keyColor": "#8aadf4" // Blue
+    },
+    {
+      "type": "kernel",
+      "key": " Kernel",
+      "keyColor": "#8aadf4"
+    },
+    {
+      "type": "uptime",
+      "key": " Uptime",
+      "keyColor": "#a6da95" // Green
+    },
+    {
+      "type": "packages",
+      "key": "󰏖 Packages",
+      "keyColor": "#a6da95"
+    },
+    {
+      "type": "shell",
+      "key": " Shell",
+      "keyColor": "#eed49f" // Yellow
+    },
+    {
+      "type": "terminal",
+      "key": " Terminal",
+      "keyColor": "#eed49f"
+    },
+    {
+      "type": "de",
+      "key": " DE",
+      "keyColor": "#f5a97f" // Peach
+    },
+    {
+      "type": "wm",
+      "key": " WM",
+      "keyColor": "#f5a97f"
+    },
+    {
+      "type": "command",
+      "key": "󰉼 Theme",
+      "keyColor": "#c6a0f6", // Mauve
+      "text": "kreadconfig6 --file kdeglobals --group KDE --key LookAndFeelPackage"
+    },
+    {
+      "type": "icons",
+      "key": "󰀻 Icons",
+      "keyColor": "#c6a0f6"
+    },
+    {
+      "type": "cpu",
+      "key": "󰻠 CPU",
+      "keyColor": "#ed8796" // Red
+    },
+    {
+      "type": "gpu",
+      "key": "󰍛 GPU",
+      "keyColor": "#ed8796"
+    },
+    {
+      "type": "memory",
+      "key": "󰑭 Memory",
+      "keyColor": "#91d7e3" // Sky
+    },
+    {
+      "type": "disk",
+      "key": "󰋊 Disk",
+      "keyColor": "#91d7e3"
+    },
+    "break",
+    {
+      "type": "colors",
+      "symbol": "circle",
+      "paddingLeft": 2
+    }
+  ]
+}

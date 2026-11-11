@@ -1,0 +1,16 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "okuLavander"
+            }
+        ],
+        "Category": "",
+        "Dependencies": [],
+        "EnabledByDefault": true,
+        "Id": "okuLavander",
+        "License": "GPLv3",
+        "Name": "okuLavander",
+        "Version": "1.0"
+    }
+}
