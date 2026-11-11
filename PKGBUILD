@@ -1,7 +1,7 @@
 # Maintainer: Archlatam <corelinuxx@mail>
 
 pkgname=core-settings-plasma
-pkgver=r16.bfd40cb
+pkgver=r3.e6c280b
 pkgrel=1
 pkgdesc="Configuración base de KDE de Arch Latam (instalada en /etc/skel)"
 arch=('any')
