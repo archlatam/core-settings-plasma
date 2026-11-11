@@ -34,6 +34,9 @@ package() {
   # Lanzadores del escritorio: tienen que ser ejecutables
   find "$pkgdir/etc/skel" -path '*/Desktop/*' -name '*.desktop' -exec chmod 755 {} +
 
+  # Favoritos del lanzador de aplicaciones (para todos los usuarios)
+  install -Dm644 src/etc/xdg/kicker-extra-favoritesrc "$pkgdir/etc/xdg/kicker-extra-favoritesrc"
+
   # Licencia
   install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
 }
