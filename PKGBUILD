@@ -31,6 +31,9 @@ package() {
   find "$pkgdir/etc/skel" -type d -exec chmod 755 {} +
   find "$pkgdir/etc/skel" -type f -exec chmod 644 {} +
 
+  # Lanzadores del escritorio: tienen que ser ejecutables
+  find "$pkgdir/etc/skel" -path '*/Desktop/*' -name '*.desktop' -exec chmod 755 {} +
+
   # Licencia
   install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
 }
