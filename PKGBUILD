@@ -14,6 +14,7 @@ optdepends=('dolphin: configuración de dolphinrc'
 makedepends=('git')
 source=("${pkgname}::git+${url}.git")
 sha256sums=('SKIP')
+options=('!strip')
 
 pkgver() {
   cd "$srcdir/$pkgname"
